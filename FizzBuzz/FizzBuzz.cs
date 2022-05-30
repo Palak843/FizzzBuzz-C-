@@ -1,0 +1,25 @@
+namespace FizzBuzz
+{
+    public class FizzBuzz
+    {
+        public void DivisableChecker()
+        {
+            for(int i=1; i<100; i++)
+            {
+                if( i%3==0)
+                {
+                    Console.WriteLine(i  + "= Fizz");
+                }
+                if (i%5 == 0)
+                {
+                   Console.WriteLine(i  + "= Buzz"); 
+                }
+                if (i%3==0 & i%5 ==0 )
+                {
+                    Console.WriteLine(i  + "= FizzBuzz");
+                }
+            }
+        }
+    }
+
+}
